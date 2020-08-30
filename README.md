@@ -1,6 +1,6 @@
 # Simple CRUD-Person
 
-Possible solution to the quarkus.io/guides/rest-data-panache guide.
+Possible solution to the https://quarkus.io/guides/rest-data-panache guide.
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
