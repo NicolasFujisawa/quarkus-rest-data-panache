@@ -1,14 +1,29 @@
-# rest-data-panache project
+# Simple CRUD-Person
+
+Possible solution to the quarkus.io/guides/rest-data-panache guide.
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
+## Configure your settings in application.properties
+
+Add the relevant configuration properties in application.properties.
+```
+quarkus.datasource.db-kind=postgresql
+quarkus.datasource.username=<your username>
+quarkus.datasource.password=<your password>
+
+quarkus.datasource.jdbc.url=jdbc:postgresql://localhost:5432/hibernate_orm_test
+quarkus.datasource.jdbc.min-size=4
+quarkus.datasource.jdbc.max-size=16
+```
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
 ```
-./mvnw quarkus:dev
+./mvnw compile quarkus:dev
 ```
 
 ## Packaging and running the application
